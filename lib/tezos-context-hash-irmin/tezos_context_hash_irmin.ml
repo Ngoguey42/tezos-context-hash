@@ -6,7 +6,8 @@ module V1 = struct
 end
 
 module Conf = struct
-  let entries = 32
+  let max_leaf_size = 32
+  let branching_factor = 32
   let stable_hash = 256
 end
 
